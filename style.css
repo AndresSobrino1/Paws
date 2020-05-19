@@ -71,8 +71,8 @@
 }
 
 .imagenesSmall {
-    height: 1.5rem;
-    weight:1.5rem;
+    height: 1.8rem;
+    weight:1.8rem;
     margin-right: .5rem;
 }
 
@@ -81,9 +81,21 @@
     width: 5rem;
     padding-bottom: .5rem;
     margin-right:1rem;
+    margin-top: 2rem;
+}
+
+.imagenCard{
+    height: 18rem;
+    width: 17.9rem;
 }
 
 .fondoColor{
     background-color: rgb(226, 224, 224);
 }
 
+/* Imagenes de social media del footer */
+.socialmedia{
+    height: 2rem;
+    width: 2rem;
+    margin:1rem;
+}
