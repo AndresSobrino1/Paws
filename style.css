@@ -81,13 +81,27 @@
     width: 5rem;
     padding-bottom: .5rem;
     margin-right:1rem;
+    margin-top: 2rem;
+}
+
+.imagenCard{
+    height: 18rem;
+    width: 17.9rem;
 }
 
 .fondoColor{
     background-color: rgb(226, 224, 224);
 }
 
+
 #derecha{
     display: flex;
     justify-content: flex-end;
+}
+
+/* Imagenes de social media del footer */
+.socialmedia{
+    height: 2rem;
+    width: 2rem;
+    margin:1rem;
 }
