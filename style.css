@@ -71,8 +71,8 @@
 }
 
 .imagenesSmall {
-    height: 1.8rem;
-    weight:1.8rem;
+    height: 1.5rem;
+    width:1.5rem;
     margin-right: .5rem;
 }
 
@@ -91,6 +91,12 @@
 
 .fondoColor{
     background-color: rgb(226, 224, 224);
+}
+
+
+#derecha{
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* Imagenes de social media del footer */
