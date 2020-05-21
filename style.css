@@ -4,7 +4,7 @@
 }
 
 /*Este id es para el texto de la seccion que va debajo del carousel*/
-#segundoTexto{
+.segundoTexto{
     margin-top: 4rem;
     margin-bottom:3rem;
     display: flex;

@@ -28,13 +28,14 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-auto"
         
         <li class="nav-item">
-          <a class="nav-link" href="formCuidador.html">Conviertete en un cuidador</a>
+          <a class="nav-link" href="Paws-final2.html#primerT">Conviertete en un cuidador</a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="caminatas.html">Nuestros servicios</a>
+          <a class="nav-link" href="Paws-final2.html#segundoT">Nuestros servicios</a>
         </li>
       </ul>
         <div id="derecha">
@@ -78,7 +79,7 @@
 <!-- Carousel End -->
 
 <!-- Texto de Servicios-->
-<h3 id= "segundoTexto"> Servicios para tus mascotas</h3>
+<h3 class= "segundoTexto"> Servicios para tus mascotas</h3>
 <div class= "container d-flex d-flex justify-content-between" > 
   <div class="seccion-izquierda">
     <div>
@@ -112,7 +113,7 @@
 
 <!-- Texto de Steps-->
 <div>
-  <h3 id= "segundoTexto"> El lugar donde consentimos a tus mascotas</h3>
+  <h3 class= "segundoTexto" id= segundoT> El lugar donde consentimos a tus mascotas</h3>
 </div>
 
 <!-- Steps form -->
@@ -134,16 +135,100 @@
         <div class="steps-step">
           <img src="https://pbs.twimg.com/profile_images/378800000443474188/d01bebcbf85832584ebe425eb50bf238_400x400.png" class="imagenStep">
           <h5>Relajate</h5>
-          <p class="mr-4">Ten apoyo las 24 horas del dia, y ten acceso a la ubicacion de tu mascota.</p>
+          <p class="mr-4">Ten apoyo las 24 horas del día, y ten acceso a la ubicación de tu mascota.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
 <!-- Texto de Steps Acaba-->
+<!-- comienza form  -->
+<form class="container">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Correo</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputState">¿De que tamaño es tu mascota?</label>
+      <select id="inputState" class="form-control">
+        <option selected disabled value="">Selecciona</option>
+        <option>Pequeña</option>
+        <option>Mediana</option>
+        <option>Grande</option>
+        <option>Extra-Grande</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Calle 1</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Calle 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">Ciudad</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">Estado</label>
+      <select id="inputState" class="form-control">
+       
+        <option selected disabled value="">Selecciona</option>
+        <option>Ciudad de México</option>
+        <option>Aguascalientes</option>
+        <option>Baja California </option>
+        <option>Baja California Sur</option>
+        <option>Campeche</option>
+        <option>Chiapas</option>
+        <option>Chihuahua</option>
+        <option>Coahuila de Zaragoza</option>
+        <option>Colima</option>
+        <option>Durango</option>
+        <option>Guanajuato</option>
+        <option>Guerrero</option>
+        <option>Hidalgo</option>
+        <option>Michoacán de Ocampo </option>
+        <option>Jalisco</option>
+        <option>Morelos</option>
+        <option>Nayarit</option>
+        <option>Nuevo León</option>
+        <option>Oaxaca</option>
+        <option>Puebla</option>
+        <option>Querétaro</option>
+        <option>Quintana Roo</option>
+        <option>San Luis Potosí</option>
+        <option>Sinaloa</option>
+        <option>Sonora</option>
+        <option>Tabasco</option>
+        <option>Tamaulipas</option>
+        <option>Tlaxcala</option>
+        <option>Veracruz de Ignacio de la Llave</option>
+        <option>Yucatán</option>
+        <option>Zacatecas</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Código postal</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Acepto terminos y condiciones
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Envíar solicitud</button>
+</form>
 
 
-
+<!--  termina form  -->
 <!-- Aqui empieza la segunda etapa  -->
 
 
@@ -151,7 +236,7 @@
 
 <!-- Texto informativo -->
 <div class="container p-4">
-<h3 id= "segundoTexto">Cuando tus mascotas necesiten, aqui estamos para acompañarlos</h3>
+<h3 class= "segundoTexto">Cuando tus mascotas necesiten, aqui estamos para acompañarlos</h3>
 <p>El dia no se puede predecir, pero puedes anticipar las necesidades de tu mascota. Reserva a paseadores que caminen a tu mascota el tiempo que necesite, los dias que creas necesarios, y las veces al dia que tu lo dispongas </p>
 </div>
 <!-- Fin de texto informativo -->
@@ -190,7 +275,7 @@
 
 <!-- Texto de Steps-->
 <div>
-<h3 id= "segundoTexto"> Encuentra al mejor compañero para tu mascota.</h3>
+<h3 class= "segundoTexto"> Encuentra al mejor compañero para tu mascota.</h3>
 </div>
 
 <!-- Steps form -->
@@ -225,7 +310,7 @@
 
 
 <!-- Texto de Contacto y Apps-->
-<h3 id= "segundoTexto">Contactanos</h3>
+<h3 class= "segundoTexto">Contactanos</h3>
 <div class= "container apps">
   <div class= "fotoiphone" >
     <img class= "fotoiphone"  src="dog.jpg" >
@@ -246,7 +331,7 @@
 
 
 <!-- Texto de Servicios-->
-<h3 id= "segundoTexto"> Servicios para tus mascotas</h3>
+<h3 class= "segundoTexto"> Servicios para tus mascotas</h3>
 <div class= "container d-flex d-flex justify-content-between" > 
   <div class="seccion-izquierda">
     <div>
@@ -270,7 +355,7 @@
 
 <!-- Texto de Steps-->
 <div>
-    <h3 id= "segundoTexto">Como funciona?</h3>
+    <h3 class= "segundoTexto" id="primerT">¿Quieres ser un cuidador?</h3>
   </div>
   
   <!-- Steps form -->
@@ -306,21 +391,22 @@
     <!-- Form   -->
 
 <div>
-    <h3 id= "segundoTexto">Comienza Aqui</h3>
+
+    <h3 class= "segundoTexto">Se parte del equipo aquí</h3>
 </div>
 
 <form class="needs-validation container" novalidate>
     <div class="form-row">
       <div class="col-md-6 mb-3">
         <label for="validationCustom01">Nombre</label>
-        <input type="text" class="form-control" id="validationCustom01" value="Andrés" required>
+        <input type="text" class="form-control" id="validationCustom01" value="" required>
         <div class="valid-feedback">
           Looks good!
         </div>
       </div>
       <div class="col-md-6 mb-3">
         <label for="validationCustom02">Apellido</label>
-        <input type="text" class="form-control" id="validationCustom02" value="Sobrino" required>
+        <input type="text" class="form-control" id="validationCustom02" value="" required>
         <div class="valid-feedback">
           Looks good!
         </div>
@@ -375,14 +461,26 @@
         </div>
       </div>
       <div class="col-md-3 mb-3">
+
         <label for="validationCustom05">Codigo Postal</label>
         <input type="text" class="form-control" id="validationCustom05" required>
         <div class="invalid-feedback">
           Please provide a valid zip.
         </div>
+        
+
+
+        
       </div>
+      <div class="custom-file m-1 ml-1">
+        <input type="file" class="custom-file-input" id="customFileLang" lang="es">
+        <label class="custom-file-label" for="customFileLang">Adjunta tu ID</label>
+      </div>
+
+
+
     </div>
-    <div class="form-group">
+    <div class="form-group mt-2">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
         <label class="form-check-label" for="invalidCheck">
