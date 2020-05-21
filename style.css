@@ -90,7 +90,7 @@
 }
 
 .fondoColor{
-    background-color: rgb(226, 224, 224);
+    background-color: rgb(247, 233, 233);
 }
 
 
@@ -105,3 +105,12 @@
     width: 2rem;
     margin:1rem;
 }
+
+  #footerderecha{
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ 
+ 
+
