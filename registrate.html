@@ -7,33 +7,33 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styleDos.css">
     <link rel="shortcut icon" href="Paws.png" type="image/png">
-    <title>Paws | Inicia sesión</title>
+    <title>Paws | Registro</title>
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="Paws-final2.html">Paws</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-      </ul>
-        <div id="derecha">
-      <ul class="navbar-nav mr-auto " >
-      <li class="nav-item">
-          <a class="navbar-text ml-4" href="registrate.html">Regístrate</a>
-      </li>
-      <li class="nav-item">
-        <a class="navbar-text ml-3" href="#">Inbox</a>
-      </li>
-      <li class="nav-item">
-        <a class="navbar-text ml-3 mr-5" href="preguntas.html">Ayuda</a>
-      </li>
-    </ul>
-  </div>
-  </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="Paws-final2.html">Paws</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+            <div id="derecha">
+          <ul class="navbar-nav mr-auto " >
+          <li class="nav-item">
+              <a class="navbar-text ml-4" href="incio-de-sesion.html">Inicio de sesion</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-text ml-3" href="#">Inbox</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-text ml-3 mr-5" href="preguntas.html">Ayuda</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      </nav>
 
 <div id="mainUno">
 <section class="main" >
@@ -41,31 +41,39 @@
     <div class="img">
       <img src="Paws.png" alt="Paws" class="paws">
     </div>
-    <form class="sign-in">
-      <div class="form-group">
-        <label for="exampleInputEmail1"  >Correo electrónico</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tus datos con terceros.</small>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Contraseña</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-        <small id="passwordlHelp" class="form-text text-muted"><a href="">Olvide mi contraseña.</a> </small>
-      </div>
-      <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">No cerrar la sesión</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Entrar</button>
-    </form>
+    <form>
+        <div class="col form-group">
+          <div class="col">
+            <input type="text" class="form-control mb-3 formR" placeholder="Nombre">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control formR" placeholder="Apellido">
+          </div>
+        </div>
+      </form>
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Correo electronico</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+          <small id="emailHelp" class="form-text text-muted">No compartiremos tus datos sin tu autorizacion.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Acepto terminos y condiciones</label>
+        </div>
+        <button type="submit" class="btn btn-primary boton-centroUno">Iniciar</button>
+      </form>
   </div>
 
-  <div class="sub-main-two ">
-    <section class="sub-main-two-a mr-3 " id="bienvenido">
-      <h2>¡Bienvenido a Paws!</h2>
-      <p><h4>El mejor compañero para tu mascota.</h4></p>
-      <p>¿Eres nuevo miembro?</p>
-      <button id="blanco" type="submit" class="btn btn-primary"><a href="registrate.html">Regístrate</a></button>
+  <div class="sub-main-two  ">
+    <section class="sub-main-two-a mr-3 azulDerecha">
+      <h2>¿Ya tienes usuario?</h2>
+      <p><h4>Inicia sesion aqui.</h4></p>
+      <button id="blanco" type="submit" class="btn btn-primary boton-centro"><a href="incio-de-sesion.html">Iniciar Sesion</a></button>
     </section>
 
   </div>
